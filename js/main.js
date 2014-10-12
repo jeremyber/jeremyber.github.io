@@ -3,7 +3,7 @@ $(document).ready(function(){
         var $bgobj = $(this); // assigning the object
     
         $(window).scroll(function() {
-            var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+            var yPos = -($(window).scrollTop() / $bgobj.data('speed')); 
             
             // Put together our final background position
             var coords = '50% '+ yPos + 'px';
@@ -11,5 +11,12 @@ $(document).ready(function(){
             // Move the background
             $bgobj.css({ backgroundPosition: coords });
         }); 
-    });    
+    });  
+
+	$('a').click(function(){
+		$('html, body').animate({
+			scrollTop: $( $.attr(this, 'href') ).offset().top
+		}, 600);
+		return false;
+	});
 });
