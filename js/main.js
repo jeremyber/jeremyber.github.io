@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+	// PARALLAX EFFECT 
     $('section[data-type="background"]').each(function(){
         var $bgobj = $(this); // assigning the object
     
@@ -12,7 +14,9 @@ $(document).ready(function(){
             $bgobj.css({ backgroundPosition: coords });
         }); 
     });  
-
+	
+	
+	// SCROLLING ON LINKS
 	$('a').click(function(){
 		$('html, body').animate({
 			scrollTop: $( $.attr(this, 'href') ).offset().top
