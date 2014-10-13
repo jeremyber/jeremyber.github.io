@@ -44,4 +44,18 @@
  }
  
  
-a.anchor_home{display: block; position: relative; visibility: hidden;}
+a.anchor_home{		/** Thanks Austin */
+	display: block;
+	position: relative;
+	visibility: hidden;
+	height: 230px;
+	margin-top: -230px;
+}
+
+a.anchor_normal{		
+display: block;
+position: relative;
+visibility: hidden;
+margin-top: -77px;
+height: 67px;
+}
