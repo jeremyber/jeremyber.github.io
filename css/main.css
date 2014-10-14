@@ -1,12 +1,10 @@
-#home
-{
-	  background-color: ivory;
-	  height: 1000px; 
-	  margin: 0 auto; 
-	  width: 100%; 
-	  max-width: 1920px; 
-	  position: relative; 
-	
+#home {
+background-color: ivory;
+height: 1500px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
 }
 
 #home article 
@@ -23,7 +21,7 @@
 #about
 {
 	background-color: mediumaquamarine;
-	height: 1000px; 
+	height: 1625px; 
 	margin: 0 auto; 
 	width: 100%; 
 	max-width: 1920px; 
@@ -58,4 +56,20 @@ position: relative;
 visibility: hidden;
 margin-top: -77px;
 height: 67px;
+}
+
+
+
+ img {
+  
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+ img:hover {
+ 
+  -webkit-filter: blur(5px);
 }
