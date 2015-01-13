@@ -1,6 +1,6 @@
 #home {
 background-color: ivory;
-height: 1500px;
+height: 1965px;
 margin: 0 auto;
 width: 100%;
 max-width: 1920px;
@@ -18,7 +18,7 @@ position: relative;
   color: cadetblue;
 }
 
-#about
+#mailing_list
 {
 	background-color: mediumaquamarine;
 	height: 1625px; 
@@ -29,6 +29,45 @@ position: relative;
 	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 	
+}
+
+#songs
+{
+    background-color: ivory;
+	height: 1625px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#upcoming_shows
+{
+	background-color: mediumaquamarine;
+	height: 1625px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	
+
+}
+
+
+#videos
+{
+    background-color: ivory;
+	height: 1625px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 #about article { 
@@ -72,4 +111,9 @@ height: 67px;
  img:hover {
  
   -webkit-filter: blur(5px);
+}
+
+#home > div > h1
+{
+	padding-bottom:50px;
 }

@@ -22,7 +22,8 @@
 .cbp-af-header h1,
 .cbp-af-header nav {
 	display: inline-block;
-	position: relative;
+	position: absolute;
+	margin-top:75px;
 }
 
  /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
@@ -67,10 +68,21 @@
 	height: 90px;
 }
 
+.cbp-af-header.cbp-af-header-shrink nav  
+{
+display: inline;
+padding-left: 24%;
+position: fixed;
+margin-top: 0px;
+
+}
+
 .cbp-af-header.cbp-af-header-shrink h1,
 .cbp-af-header.cbp-af-header-shrink nav a {
 	line-height: 90px;
+	display:inline-block;
 }
+
 
 .cbp-af-header.cbp-af-header-shrink h1 {
 	font-size: 2em;
