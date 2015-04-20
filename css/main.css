@@ -1,0 +1,119 @@
+#home {
+background-color: ivory;
+height: 1965px;
+margin: 0 auto;
+width: 100%;
+max-width: 1920px;
+position: relative;
+}
+
+#home article 
+{ 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+  font-size:100px;
+  color: cadetblue;
+}
+
+#mailing_list
+{
+	background-color: mediumaquamarine;
+	height: 1625px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	
+}
+
+#songs
+{
+    background-color: ivory;
+	height: 1625px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#upcoming_shows
+{
+	background-color: mediumaquamarine;
+	height: 1625px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	
+
+}
+
+
+#videos
+{
+    background-color: ivory;
+	height: 1625px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#about article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+  font-size:100px;
+  color: antiquewhite;
+ }
+ 
+ 
+a.anchor_home {
+display: block;
+position: relative;
+visibility: hidden;
+height: 209px;
+margin-top: -248px;
+}
+
+a.anchor_normal{		
+display: block;
+position: relative;
+visibility: hidden;
+margin-top: -77px;
+height: 67px;
+}
+
+
+
+ img {
+  
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+ img:hover {
+ 
+  -webkit-filter: blur(5px);
+}
+
+#home > div > h1
+{
+	padding-bottom:50px;
+}
